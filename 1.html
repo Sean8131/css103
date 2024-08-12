@@ -1,0 +1,40 @@
+<html>
+  <body>
+    <style>
+      .flex {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        background-color: #9e9e9e;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      #one {
+        flex: auto;
+      }
+      #two {
+        flex: none;
+      }
+      #three {
+        flex-wrap: wrap;
+      }
+    </style>
+    <div class="flex">
+      <div id="one">One</div>
+      <div id="two">Two</div>
+      <div id="three">Three</div>
+    </div>
+  </body>
+</html>
+
+<!-- For every one of these properties, find out which values they can take, try them all, and then pick one to set before moving on to the next exercise.
+
+justify-content
+align-items
+flex-direction
+flex
+flex-wrap
+When you're finished, you should have a file where every one of these properties is set on at least one element.
+
+Don't forget to git add, git commit, git push your results. -->
