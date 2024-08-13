@@ -1,0 +1,30 @@
+<html>
+    <style>
+        .flex{
+            display: flex;
+        }
+        .flex-inner {
+            flex-direction: column;
+            background-color: #90ef8f;
+            margin-bottom: 50px;
+        }
+        .flex-outer {
+            justify-content: center;
+            border: solid #ff0008;
+            margin: 20px
+        }
+    </style>
+  <body>
+    <div class="flex flex-outer">
+      <div class="flex flex-inner">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- Create a flexbox inside a flexbox.
+Use justify-content on the outer flexbox and flex-direction on the inner flexbox to achieve the following result:
+-->
